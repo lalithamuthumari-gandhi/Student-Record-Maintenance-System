@@ -1,0 +1,117 @@
+body  
+{
+  font-family: sans-serif;
+  background-color: rgb(26, 27, 27);
+  /*background-image: url("./kec.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 500px;*/ 
+}
+/*body {
+    background-image: url('./kec.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-container {
+  background-image: url("./kec.jpg") center cover no-repeat fixed;
+  background-repeat:no-repeat;
+  width: 90%;
+  height: 70%; 
+ }*/
+.login{  
+    background: dimgrey;  
+        width: 385px;  
+        top: 50%;
+        left: 50%;
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px; 
+        padding: 25px;  
+        background: dimgrey;  
+        border-radius: 15px ; 
+        position: absolute; 
+        transform:translate(-50%,-50%);
+}  
+
+/*.inner
+{
+    display: inline-block;
+}
+h1{  
+    text-align: center;  
+    color: #000000;  
+    padding:0.02px;  
+}  
+h2{  
+    text-align: justify;  
+    font-size: xx-large;
+    color: yellow;  
+    padding-top: 0.5px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+} */
+label{  
+    color:white;  
+    font-size: 20px;
+    text-align: justify-all;
+}  
+#uname{  
+    width: 400x;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;
+    padding-top:5px ;  
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: large;  
+}  
+#myInput{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;
+    padding-top:5px ;    
+    padding-left: 8px; 
+    padding-right: 8px;
+    font-size: large;
+}  
+#log{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 10px;  
+    padding-left: 3px;  
+    color: #FF0000; 
+    opacity:5px;
+    font-weight:bold;
+    font-size:150%;
+    display: inline;
+} 
+#reg{
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 10px;  
+    padding-left: 3px;  
+    color: #FF0000; 
+    opacity:5px;
+    font-weight:bold;
+    font-size:150%;
+    display: inline;
+}
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: absolute;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}

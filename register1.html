@@ -1,0 +1,39 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Register Form</title>    
+<style>
+   body 
+   {
+      background-image: url('./plain.jpg');
+      background-size: cover;
+   }
+   
+</style>
+    <title><b>Register</b></title>
+    <!--link rel="stylesheet" href="register.css"-->
+</head>
+<body>
+   <div class="register">   
+     <h2><b>Registration Form</b></h2> 
+     <form id="reg" method="post" action="insert.php">  
+        <input type="text" name="rno" id="roll" placeholder="RollNo">    
+        <br></br>   
+        <input type="text" name="fname" id="fname" placeholder="FirstName">    
+        <br></br>
+        <input type="text" name="mname" id="midname" placeholder="MiddleName"> 
+        <br></br>
+        <input type="text" name="lname" id="lname" placeholder="LastName"> 
+        <br></br>
+        <input type="text" name="uname" id="uname" placeholder="UserName"> 
+        <br></br>        
+        <input type="password" name="pswrd" id="pswrd" placeholder="Password"> 
+        <br></br>
+        <input type="password" name="cpswrd" id="cpswrd" placeholder="Confirm Password"> 
+        <br></br>
+        <button type="button" id="submit">
+        <span class="btn1">submit</span></button>
+      </form>
+   </div>
+</body>
+</html>

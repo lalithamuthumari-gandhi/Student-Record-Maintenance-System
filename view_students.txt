@@ -1,0 +1,8 @@
+<?php
+include('admin.php');
+$conn = mysqli_connect("localhost", "root", "", "login");
+
+// SQL query to select data from database
+$sql = " SELECT FirstName,Role FROM users where Role!='Admin' and Role!='Staff' order by Role";
+$result = mysqli_query($conn, $sql);
+?>

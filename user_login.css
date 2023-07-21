@@ -1,0 +1,96 @@
+button:hover
+{
+  background-color:white;
+  color:red;
+}
+body 
+{
+font-family: sans-serif;
+background-image: url('./kec.jpg');
+background-size: cover;
+
+}
+input[type=text],input[type=password]
+{
+ width:400px;
+ padding:12px 20px;
+ margin:8px 0;
+ display: inline-block;
+ box-sizing:border-box;
+}
+label{  
+  font-family: sans-serif;
+  color:white;  
+  font-size: 20px;
+  text-align: justify-all;
+} 
+button {
+  width: 150px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 10px;  
+  padding-left: 3px;  
+  color:black; 
+  background-color:white;
+  opacity:7px;
+  font-weight:bold;
+  font-size:150%;
+  display: inline;
+}
+.btn1
+{
+ margin-right : 10px;
+}
+.btn2
+{
+margin-left : 10px;
+}
+#uname{  
+  width: 400x;  
+  height: 40px;  
+  border: none;  
+  border-radius: 3px;
+  padding-top:5px ;  
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: large;  
+}  
+#myInput{  
+  width: 400px;  
+  height: 40px;  
+  border: none;  
+  border-radius: 3px;
+  padding-top:5px ;    
+  padding-left: 8px; 
+  padding-right: 8px;
+  font-size: large;
+}  
+.container{ 
+font-family: sans-serif;
+  background: dimgrey;  
+      width: 385px;  
+      top: 50%;
+      left: 50%;
+      overflow: hidden;  
+      margin: auto;  
+      margin: 20 0 0 450px; 
+      padding: 25px;  
+      background: dimgrey;  
+      border-radius: 15px ; 
+      position: absolute; 
+      transform:translate(-50%,-50%);
+}
+h1{  
+  text-align: center;  
+  color:#000000;  
+  padding:0.02px;  
+}  
+h2{  
+  text-align: justify;  
+  font-size: xx-large;
+  color: yellow;  
+  padding-top: 0.5px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+} 
